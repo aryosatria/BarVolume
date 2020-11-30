@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FC6E02"
+        android:textSize="29dp"
+        android:text="Panjang" />
+
+    <EditText
+        android:id="@+id/edt_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ECE4"
+        android:textSize="29dp"
+        android:text="Lebar" />
+
+    <EditText
+        android:id="@+id/edt_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EE0000"
+        android:textSize="29dp"
+        android:text="Tinggi" />
+
+    <EditText
+        android:id="@+id/edt_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF04"
+        android:textSize="21dp"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hasil"
+        android:textColor="#FAEE00"
+        android:textSize="31sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
+
